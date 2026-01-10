@@ -15,15 +15,14 @@
         "default_title": "WordPeek" 
     },
     "host_permissions": [
-        "https://*/"
+        "https://api.dictionaryapi.dev/api/v2/entries/en/"
     ],
     "background": {
         "service_worker": "eventPage.js",
         "type": "module"
     },  
     "permissions": [
-        "storage",
-        "tabs",
+        "storage",       
         "contextMenus"
     ]
 }
