@@ -31,7 +31,6 @@ WordPeek fetches meanings via a dictionary API and displays them in a clean, rea
 ## 📦 Installation
 
 ### From Chrome Web Store
-*(Coming soon / Add link once published)*
 
 ### Manual Installation (Development Mode)
 
