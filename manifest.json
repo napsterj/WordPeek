@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "WordPeek",
+    "description": "Learn the meaning of any word in English.",
+    "version": "1.0",
+    "icons": {
+        "128": "images/icon128.png",
+        "48": "images/icon48.png",
+        "32": "images/icon32.png",
+        "16": "images/icon16.png"
+    },  
+    "action": {
+        "default_icon": "images/icon16.png",
+        "default_popup": "popup.html",
+        "default_title": "WordPeek" 
+    },
+    "host_permissions": [
+        "https://*/"
+    ],
+    "background": {
+        "service_worker": "eventPage.js",
+        "type": "module"
+    },  
+    "permissions": [
+        "storage",
+        "tabs",
+        "contextMenus"
+    ]
+}
