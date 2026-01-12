@@ -1,4 +1,10 @@
-var menuItem = {
+/*!
+ * WordPeek Chrome Extension
+ * Copyright (c) 2026 Abhishek Jadhav
+ * All rights reserved.
+ */
+
+let menuItem = {
     id: "wordPeekId",
     title: "WordPeek",
     contexts: ['selection']

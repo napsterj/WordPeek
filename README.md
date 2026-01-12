@@ -37,3 +37,7 @@ WordPeek fetches meanings via a dictionary API and displays them in a clean, rea
 1. Clone or download this repository:
    ```bash
    git clone https://github.com/napsterj/WordPeek.git
+
+## Copyright
+
+© 2026 Abhishek Jadhav. All rights reserved.

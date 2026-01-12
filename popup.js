@@ -1,4 +1,10 @@
 
+/*!
+ * WordPeek Chrome Extension
+ * Copyright (c) 2026 Abhishek Jadhav
+ * All rights reserved.
+ */
+
 chrome.storage.sync.get(['meanings'], function(definitions) {        
     let actualMeanings = definitions.meanings;
         
