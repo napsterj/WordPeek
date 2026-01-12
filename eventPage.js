@@ -7,16 +7,6 @@ chrome.contextMenus.removeAll().then((res) => {
     chrome.contextMenus.create(menuItem)
 })
 
-
-var customPopup = {   
-    "url": chrome.runtime.getURL("popup.html"), 
-    "type": "popup",    
-    "top": 4,
-    "left": 4,
-    "height": 400,
-    "width": 400   
-}
-
 async function callDictionaryApi(word) {    
     const url = "https://api.dictionaryapi.dev/api/v2/entries/en/"    
                         
