@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "WordPeek",
     "description": "Learn the meaning of any word in English.",
-    "version": "1.0",
+    "version": "1.0.1",
     "icons": {
         "128": "images/icon128.png",
         "48": "images/icon48.png",
