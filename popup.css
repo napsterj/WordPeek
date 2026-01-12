@@ -2,10 +2,11 @@ body {
     background-image: url("images/dictionary.png");
     background-color:rgba(255, 255, 255, 0.7);
     background-blend-mode: lighten;
-    color:darkolivegreen;
+    color:crimson;
     min-width: 500px;
     min-height: 500px;
     font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     overflow: scroll;
 }
@@ -14,6 +15,11 @@ h1 {
     color:cadetblue;
 }
 
+footer {
+    color: lightgray;
+    font-size: x-small;
+    text-align: center;
+}
 ul {
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;

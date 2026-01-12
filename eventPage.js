@@ -49,6 +49,18 @@ chrome.contextMenus.onClicked.addListener(async function (clickData){
                 
         let definitions = await callDictionaryApi(clickData.selectionText) 
         
+        if(definitions === null || definitions == undefined) {
+            chrome.notifications.create({
+                type: "basic",                
+                title: "Error: Word not found.",
+                iconUrl:"images/error.png",
+                message: "Error: No meaning found for this word. Please select a valid word.",
+                priority: 1
+            })
+            
+            return;
+        }
+
         chrome.storage.sync.set({['meanings']: definitions})         
         chrome.storage.sync.set({['word']: clickData.selectionText})                      
     }
